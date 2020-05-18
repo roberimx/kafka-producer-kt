@@ -45,3 +45,7 @@ idea {
         isDownloadSources = true
     }
 }
+
+tasks.named<Wrapper>("wrapper") {
+    distributionType = Wrapper.DistributionType.ALL
+}
